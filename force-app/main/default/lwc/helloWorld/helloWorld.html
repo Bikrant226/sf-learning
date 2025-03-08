@@ -1,6 +1,8 @@
 <template>
     <lightning-card  title="Two way data binding">
-        <lightning-input type="text" label="Enter game" onkeyup={changeHandler}></lightning-input>
-       <div>My favourite game is {game}</div>
+        <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Enter game" onkeyup={changeHandler}></lightning-input>
+            <div>My favourite game is {game}</div>
+        </div>
     </lightning-card>
 </template>
